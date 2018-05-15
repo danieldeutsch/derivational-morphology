@@ -1,0 +1,34 @@
+model-params:
+  attention: mlp
+  epochs: 30
+  batch-size: 5
+  embed-dim: 20
+  hidden-dim: 40
+  num-layers: 1
+
+optimization-params:
+  lr: 0.005
+  decay-rate: 0.5
+
+decoder-params:
+  decoder-action: default
+  search-type: shortest-k
+  ptree-type: suffix
+  beam-size: 10
+  min-counts: 7.5
+  min-suffix-count: 2
+
+reranker-params:
+  reranking-features:
+    - model-score
+    - log-count
+
+dist-params:
+  args:
+    epochs: 25
+
+ensembler-params:
+  ensembler-args:
+    epochs: 50
+    num-choies: 2
+    batch-size: 1
