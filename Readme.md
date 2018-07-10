@@ -1,3 +1,22 @@
+# Derivational Morphology
+This is the code repository for the ACL 2018 paper [A Distributional and Orthographic Aggregation Model for English Derivational Morphology](http://aclweb.org/anthology/P18-1180).
+If you use this code for your work, please cite
+```
+@InProceedings{P18-1180,
+  author = 	"Deutsch, Daniel
+		and Hewitt, John
+		and Roth, Dan",
+  title = 	"A Distributional and Orthographic Aggregation Model for English Derivational Morphology",
+  booktitle = 	"Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  year = 	"2018",
+  publisher = 	"Association for Computational Linguistics",
+  pages = 	"1938--1947",
+  location = 	"Melbourne, Australia",
+  url = 	"http://aclweb.org/anthology/P18-1180"
+}
+
+```
+
 ## Setup
 To clone the repository with the dataset, shard the training data, and download the `unigram-counts.txt` data file, run
 ```
